@@ -5,3 +5,6 @@
  * Date: 10/14/2017
  * Time: 10:44 PM
  */
+Route::get('/',function (){
+    return view('shop/index');
+});
